@@ -4,14 +4,14 @@ La funcion de este proyecto es practicar mis capacidad y en este caso fue un gen
 de cadenas minusculas, mayusculas, numeros y simbolos
 
 # Funcionalidades
-
+```
 Permite generar contraseñas con la longitud que el usuario defina
 Permite generar:
 -Mayuscula
 -Minuscula
 -Numericos
 -Simbolos
-
+```
 ## Estructura del proyecto
 ```
 Generardor_Contraseña
@@ -19,6 +19,7 @@ Generardor_Contraseña
 ├─src
 |   ├─generar.py
 |   ├─main.py
+|   └pass_gen.csv
 |
 └───README.md
 ```

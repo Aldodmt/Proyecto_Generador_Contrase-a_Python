@@ -16,3 +16,7 @@ def ran_num():
 #Funcion para generar un caracter aleatorio
 def string_simbol():
     return random.choice(string.punctuation)
+
+#Funcion para generar una salt aleatoria
+def salt_gen(length=16):
+    return ''.join(random.choices(string.ascii_letters + string.digits + string.punctuation, k=length))
